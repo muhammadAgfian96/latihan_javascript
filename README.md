@@ -1,5 +1,5 @@
 # latihan_javascript
 
 belajar javascript dari channel:
-    web programming unpas 
-    sekolah koding
+    -web programming unpas 
+    -sekolah koding
