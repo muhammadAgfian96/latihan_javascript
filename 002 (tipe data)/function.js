@@ -50,3 +50,5 @@ var angka2 = angka.find(function(x){
     return x > 5;
 });
 console.log(angka2);
+
+var arr_dont = [1,2,3,4];
