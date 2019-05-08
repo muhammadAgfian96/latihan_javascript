@@ -1,11 +1,20 @@
-var s='';
+// var a =10;
+// console.log(window.a);
 
-for(var i = 0; i<5; i++){
-    for(var j = 0; j<=i;j++){
-        s+='*'
-    }
-    s += '\n';
+var obj = {a:10 , nama : 'sandika'};
+
+obj.halo = function() {
+    console.log(this);
+    console.log('halo');
 }
 
-console.log(s);
-console.log("halooooo");
+obj.halo();
+
+//cara 3 - constructor
+function Halo(){
+    console.log(this);
+    console.log('cons');
+}
+
+var obj1 = new Halo();
+var obj2 = new Halo();
